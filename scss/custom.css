@@ -11963,7 +11963,7 @@ fieldset:disabled .btn {
 }
 
 body {
-  font-family: 'Hind', sans-serif;
+  font-family: "Hind", sans-serif;
   font-style: normal;
   font-weight: 300;
 }
@@ -12060,10 +12060,10 @@ ul {
   font-weight: normal;
   font-size: 18px;
   line-height: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 15px 40px;
   text-align: center;
-  background: #05297F;
+  background: #05297f;
   border-radius: 50px;
   border-color: transparent;
   margin-bottom: 50px;
@@ -12107,7 +12107,7 @@ ul {
   font-size: 46px;
   line-height: 48px;
   text-transform: uppercase;
-  color: #05297F;
+  color: #05297f;
   margin: 0;
 }
 
@@ -12148,7 +12148,7 @@ ul {
   font-size: 12px;
   line-height: 12px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 37px;
 }
 
@@ -12161,7 +12161,7 @@ ul {
 }
 
 .title-discount-blue {
-  color: #05297F;
+  color: #05297f;
 }
 
 .title-discount-text {
@@ -12189,7 +12189,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   padding: 5px 10px;
-  background: #FC9D9D;
+  background: #fc9d9d;
   border-radius: 50px;
   margin-bottom: 120px;
 }
@@ -12220,8 +12220,8 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   padding: 5px 10px;
-  color: #FFFFFF;
-  background: #FC9D9D;
+  color: #ffffff;
+  background: #fc9d9d;
   border-radius: 50px;
 }
 
@@ -12246,11 +12246,11 @@ ul {
   padding: 40px 25px;
   width: 114px;
   height: 114px;
-  background: #FC9D9D;
+  background: #fc9d9d;
   font-weight: bold;
   font-size: 28px;
   line-height: 34px;
-  color: #FFFFFF;
+  color: #ffffff;
   border-radius: 60px;
   margin-bottom: 253px;
 }
@@ -12290,7 +12290,7 @@ ul {
   font-size: 14px;
   line-height: 14px;
   text-transform: uppercase;
-  color: #B1B1B1;
+  color: #b1b1b1;
 }
 
 .card-text {
@@ -12318,7 +12318,7 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 50%;
-  background: #FC9D9D;
+  background: #fc9d9d;
   text-decoration: none;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -12336,7 +12336,7 @@ ul {
   font-weight: 600;
   font-size: 22px;
   line-height: 22px;
-  color: #D63447;
+  color: #d63447;
 }
 
 .card-price-sale {
@@ -12344,7 +12344,7 @@ ul {
   line-height: 16px;
   -webkit-text-decoration-line: line-through;
           text-decoration-line: line-through;
-  color: #B1B1B1;
+  color: #b1b1b1;
 }
 
 .star-icon {
@@ -12358,7 +12358,7 @@ ul {
 .btn-popular {
   font-size: 18px;
   line-height: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   -webkit-box-flex: 0;
       -ms-flex: none;
           flex: none;
@@ -12368,10 +12368,6 @@ ul {
   -ms-flex-positive: 0;
       flex-grow: 0;
   margin-top: 50px;
-}
-
-.footer-background {
-  background: #EEF2F5;
 }
 
 .footer-padding {
