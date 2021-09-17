@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trali</title>
+    <link rel="stylesheet" href="./scss/custom.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@300;500;600;700&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand navbar-logo" href="#">
+            <img
+              src="./images/logo.jpg"
+              alt="Trali- 
+              logo"
+              width="138"
+              height="44"
+            />
+          </a>
+          <div class="navbar-toggler-icon"></div>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item navbar-link">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item navbar-link">
+                <a class="nav-link" href="#">Collections</a>
+              </li>
+              <li class="nav-item navbar-link">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item navbar-link">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item navbar-link">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="navbar-nav ms-auto nav-text">
+            <li class="nav-item nav-text dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <svg class="contacts-icon" width="25" height="25">
+                  <use href="./images/sprite.svg#user 1"></use>
+                </svg>
+                jonny
+                <svg class="contacts-icon" width="8" height="8">
+                  <use href="./images/sprite.svg#up-chevron 1"></use>
+                </svg>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Действие</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Другое действие</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Что-то еще здесь</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">
+                <svg class="contacts-icon" width="24" height="21">
+                  <use href="./images/sprite.svg#heart"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">
+                <svg class="contacts-icon" width="24" height="24">
+                  <use href="./images/sprite.svg#libra 1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">
+                <svg class="contacts-icon" width="26" height="26">
+                  <use href="./images/sprite.svg#cart 1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container-fluid">
+        <div class="hero-text-content">
+          <h1 class="hero-title-one">Explore New</h1>
+          <h2 class="hero-title">Champion Women’s</h2>
+          <p class="hero-text">
+            Sed pretium turpis id orci molestie, vitae placerat ligula
+            vulputate. Duis volutpat ante sed laoreet tempus. Vivamus diam
+            purus, vehicula ac tortor ut, dictum vestibulum nisi. Nulla
+            condimentum felis quis augue viverra, et tempor arcu dapibus.
+          </p>
+          <button class="btn btn-primary" type="submit">Add to Cart</button>
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <svg width="40" height="40">
+                <use href="./images/sprite.svg#prev"></use>
+              </svg>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <svg width="40" height="40">
+                <use href="./images/sprite.svg#next"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="hero-img">
+          <!-- <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          > -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./images/imani-bahati.jpg"
+                width="748"
+                height="647"
+                alt="shoes"
+              />
+            </div>
+
+            <!-- <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="..." />
+            </div>-->
+          </div>
+
+          <div class="hero-price-position">
+            <p class="hero-price">only</p>
+            <p class="hero-price-one">$56</p>
+          </div>
+        </div>
+        <!-- </div> -->
+      </section>
+
+      <section class="container-fluid banner">
+        <div class="row row-margin">
+          <div class="col">
+            <img
+              width="702"
+              height="607"
+              src="images/banner.jpg"
+              alt="banner"
+            />
+            <div class="banner-text">
+              <h3 class="banner-title">Girls Collection</h3>
+              <h3 class="banner-title-one">
+                Woman Summer <br />
+                Collection
+              </h3>
+              <button class="btn btn-primary banner-btn" type="submit">
+                Shop Now
+              </button>
+            </div>
+          </div>
+
+          <div class="col col-margin">
+            <div>
+              <h3 class="title-discount">
+                Sing Up of <br />
+                <span class="title-discount-blue">20% Discount</span>
+              </h3>
+              <p class="title-discount-text">
+                Sed pretium turpis id orci molestie, vitae placerat ligula
+                vulputate. Duis volutpat ante sed laoreet tempus. Vivamus diam
+                purus
+              </p>
+              <button class="btn btn-primary btn-discount" type="submit">
+                Sing Up
+              </button>
+            </div>
+            <img
+              src="images/banner1.jpg"
+              width="580"
+              height="385"
+              alt="banner"
+            />
+            <div class="banner-text-boys">
+              <h3 class="banner-title banner-title-boys">Boys Collection</h3>
+              <h3 class="banner-title-one">
+                Men 2020 <br />
+                Summer Collection
+              </h3>
+              <button class="btn btn-primary btn-boys" type="submit">
+                Shop Now
+              </button>
+            </div>
+          </div>
+
+          <div class="col col-margin">
+            <img
+              src="images/banner2.jpg"
+              width="824"
+              height="517"
+              alt="banner"
+            />
+            <div class="banner-text-shoes">
+              <h3 class="banner-title-shoes">SALE</h3>
+              <h3 class="banner-title-one">Shoes <br />Summer Collection</h3>
+              <button class="btn btn-primary" type="submit">Shop Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-fluid">
+        <h3 class="popular-title">Popular Products</h3>
+        <div class="row d-flex justify-content-evenly row-position">
+          <div class="col-card">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./images/black-top.jpg"
+                class="card-img-top"
+                alt="black-top"
+              />
+              <div class="card-body">
+                <ul class="star-flex star-icon">
+                  <li>
+                    <img src="images/star.png" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/star.png" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/star.png" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/star.png" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/star1.png" alt="" />
+                  </li>
+                </ul>
+                <h5 class="card-title">Zara</h5>
+                <p class="card-text">Quilted gilet with hood</p>
+              </div>
+
+              <div class="card-body">
+                <ul class="star-flex star-icon">
+                  <li class="card-icon">
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="shopping-bag"
+                    >
+                      <svg width="20" height="20">
+                        <use href="./images/sprite.svg#shopping-bag"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="card-price">$145</li>
+                  <li class="card-price-sale">$175</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-card">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./images/gray-top.jpg"
+                class="card-img-top"
+                alt="gray-top"
+              />
+              <div class="card-body">
+                <ul class="star-flex star-icon">
+                  <li>
+                    <img src="images/star.png" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/star.png" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/star.png" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/star.png" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/star1.png" alt="" />
+                  </li>
+                </ul>
+                <h5 class="card-title">Zara</h5>
+                <p class="card-text">Quilted gilet with hood</p>
+              </div>
+
+              <div class="card-body">
+                <ul class="star-flex star-icon">
+                  <li class="card-icon">
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="shopping-bag"
+                    >
+                      <svg width="20" height="20">
+                        <use href="./images/sprite.svg#shopping-bag"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="card-price">$145</li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-card">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./images/white-top.jpg"
+                class="card-img-top"
+                alt="white-top"
+              />
+              <div class="card-body">
+                <ul class="star-flex star-icon">
+                  <li>
+                    <img src="images/star.png" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/star.png" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/star.png" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/star.png" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/star1.png" alt="" />
+                  </li>
+                </ul>
+                <h5 class="card-title">Zara</h5>
+                <p class="card-text">Quilted gilet with hood</p>
+              </div>
+
+              <div class="card-body">
+                <ul class="star-flex star-icon">
+                  <li class="card-icon">
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="shopping-bag"
+                    >
+                      <svg width="20" height="20">
+                        <use href="./images/sprite.svg#shopping-bag"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="card-price">$145</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-card">
+            <div class="card" style="width: 18rem">
+              <img
+                src="./images/blue-top.jpg"
+                class="card-img-top"
+                alt="blue-top"
+              />
+              <div class="card-body">
+                <ul class="star-flex star-icon">
+                  <li>
+                    <img src="images/star.png" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/star.png" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/star.png" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/star.png" alt="" />
+                  </li>
+                  <li>
+                    <img src="images/star1.png" alt="" />
+                  </li>
+                </ul>
+                <h5 class="card-title">Zara</h5>
+                <p class="card-text">Quilted gilet with hood</p>
+              </div>
+
+              <div class="card-body">
+                <ul class="star-flex star-icon">
+                  <li class="card-icon">
+                    <a
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="shopping-bag"
+                    >
+                      <svg width="20" height="20">
+                        <use href="./images/sprite.svg#shopping-bag"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="card-price">$145</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-center">
+          <button class="btn btn-primary btn-popular" type="submit">
+            Go to Shop
+          </button>
+        </div>
+      </section>
+
+      <footer class="footer-background">
+        <div class="footer-top container-fluid footer-padding">
+          <div class="container">
+            <nav class="navbar navbar-expand-lg footer-nav-link footer-nav">
+              <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mx-auto-footer mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link footer-nav-link"
+                      aria-current="page"
+                      href="./index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link footer-nav-link" href="#">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link footer-nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link footer-nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link footer-nav-link" href="#">Contacts</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+
+            <div class="row footer-row">
+              <div class="col-md-6 col-lg-3">
+                <div class="footer-info">
+                  <div class="footer-flex">
+                    <svg class="phone-icon" width="41" height="41">
+                      <use href="./images/sprite.svg#phone"></use>
+                    </svg>
+                    <div>
+                      <h3 class="footer-title">CALL US FREE</h3>
+                      <a href="tel:+18006565222" class="footer-number"
+                        >+1 800 6565 222</a
+                      >
+                    </div>
+                  </div>
+
+                  <p class="work-hours">Mon-Sun: 9:00am - 9:00pm</p>
+                  <ul class="social-list">
+                    <li class="social-item">
+                      <a
+                        class="social-link"
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="link to instagram"
+                      >
+                        <svg class="contacts-icon" width="20" height="20">
+                          <use href="./images/sprite.svg#instagram"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-item">
+                      <a
+                        class="social-link"
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="link to twitter"
+                      >
+                        <svg class="contacts-icon" width="20" height="20">
+                          <use href="./images/sprite.svg#twitter"></use>
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="social-item">
+                      <a
+                        class="social-link"
+                        href="#"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="link to facebook"
+                      >
+                        <svg class="contacts-icon" width="20" height="20">
+                          <use href="./images/sprite.svg#facebook-f"></use>
+                        </svg>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <h3 class="title-link">Get In Touch</h3>
+                <ul class="link-list">
+                  <li class="link-item">
+                    <a
+                      class="link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="link to Delivery Information"
+                      >Delivery Information</a
+                    >
+                  </li>
+                  <li class="link-item">
+                    <a
+                      class="link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="link to Discount"
+                      >Discount</a
+                    >
+                  </li>
+                  <li class="link-item">
+                    <a
+                      class="link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="link to Purchase Protection"
+                      >100% Purchase Protection</a
+                    >
+                  </li>
+                  <li class="link-item">
+                    <a
+                      class="link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="link to Returns Centre"
+                      >Returns Centre</a
+                    >
+                  </li>
+                  <li class="link-item">
+                    <a
+                      class="link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="link to Your Account"
+                      >Your Account</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <h3 class="title-link">Categories</h3>
+                <ul class="link-list">
+                  <li class="link-item">
+                    <a
+                      class="link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="link to Woman"
+                      >Woman</a
+                    >
+                  </li>
+                  <li class="link-item">
+                    <a
+                      class="link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="link to Men"
+                      >Men</a
+                    >
+                  </li>
+                  <li class="link-item">
+                    <a
+                      class="link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="link to Accessories"
+                      >Accessories</a
+                    >
+                  </li>
+                  <li class="link-item">
+                    <a
+                      class="link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="link to Sports Shoes"
+                      >Sports Shoes</a
+                    >
+                  </li>
+                  <li class="link-item">
+                    <a
+                      class="link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="link to Clothes"
+                      >Clothes</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-lg-3">
+                <h3 class="title-link">Payment Method</h3>
+                <ul class="link-list link-list-paypal">
+                  <li class="link-item-paypal">
+                    <a
+                      class="link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="link to credit-card-visa"
+                    >
+                      <img
+                        src="images/credit-card-visa.jpg"
+                        alt="credit-card-visa"
+                    /></a>
+                  </li>
+                  <li class="link-item-paypal">
+                    <a
+                      class="link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="link to paypal"
+                      ><img src="images/paypal.jpg" alt="credit-card-visa"
+                    /></a>
+                  </li>
+                  <li class="link-item-paypal">
+                    <a
+                      class="link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="link to american-express"
+                      ><img
+                        src="images/american-express.jpg"
+                        alt="credit-card-visa"
+                    /></a>
+                  </li>
+                  <li class="link-item-paypal">
+                    <a
+                      class="link"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="link to maestro"
+                      ><img src="images/maestro.jpg" alt="credit-card-visa"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
